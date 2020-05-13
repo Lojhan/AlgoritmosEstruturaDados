@@ -1,0 +1,19 @@
+Programa Exercicio06Lista02;
+
+Var
+    inteiro: x1, x2, y1, y2, resultado_x, resultado_y, soma_x_y, distancia;
+
+Inicio
+
+    imprima("Digite os valores para x1, x2, y1 e y2: ");
+    leia(x1, x2, y1, y2);
+
+    resultado_x ← (x1 - x2) * (x1 - x2);
+    resultado_y ← (y1 - y1) * (y1 - y2);
+    soma_x_y ← resultado_x + resultado_y;
+    distancia ← raiz(soma_x_y);
+
+    imprima(distancia);
+
+
+Fim.

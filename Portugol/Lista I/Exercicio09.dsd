@@ -1,0 +1,15 @@
+Programa Exercicio09;
+
+Var
+    real: celsius, fahrenheit;
+
+Inicio
+
+    imprima("Digite a temperatura em celsius: ");
+    leia(c);
+
+    fahrenheit ← (9 * celsius + 160) / 5;
+
+    imprima(fahrenheit);
+
+Fim.

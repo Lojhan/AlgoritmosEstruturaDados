@@ -1,0 +1,29 @@
+Programa Exercicio06;
+
+Var
+    inteiro: numero1, numero2;
+    real: resultado;
+    carectere: operacao;
+
+Inicio
+
+    imprima("Digite o número 1 e 2 e o caractere da operação: ");
+    leia(numero1, numero2, caractere);
+
+    escolha (operacao)
+        caso "+":
+            resultado ← numero1 + numero2;            
+        caso "-":
+            resultado ← numero1 - numero2;  
+        caso "*":
+            resultado ← numero1 * numero2;  
+        caso "/":
+            resultado ← numero1 / numero2;  
+        outrocaso:
+            resultado ← 0;
+            imprima("Operador inválido!");
+    fimescolha;
+    imprima("Resultado: " + resultado);
+
+
+Fim.

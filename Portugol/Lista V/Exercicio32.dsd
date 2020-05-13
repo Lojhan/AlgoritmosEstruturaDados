@@ -1,0 +1,22 @@
+Programa Exercicio32;
+
+Var
+    inteiro: contator, numero, fatorial;
+    caractere: saida;
+
+Inicio
+
+    imprima("Digite um número: ");
+    leia(numero); //5
+    saida ← "";
+
+    fatorial ← 1;
+    para contador de numero ate 1 passo -1 faca
+        fatorial ← fatorial * contador;
+        saida = saida + contador + " . ";
+        saida = "11" + "11";
+    fimpara;
+    imprima(saida);
+    imprima("Número: " + numero); 
+
+Fim.

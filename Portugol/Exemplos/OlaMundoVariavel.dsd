@@ -1,0 +1,12 @@
+Programa OlaMundoVariavel;
+
+Var
+    cararctere: mensagem;
+
+Inicio
+
+    //Alt + 27
+    mensagem ← "Olá Mundo!";
+    imprima(mensagem);
+
+Fim.

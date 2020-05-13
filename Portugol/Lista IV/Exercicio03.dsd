@@ -1,0 +1,27 @@
+Programa Exercicio03;
+
+Var
+    inteiro: numero, resto2, resto3;
+Inicio
+
+    imprima("Digite o numero: ");
+    leia(numero);
+
+    resto2 ← numero % 2;
+    resto3 ← numero % 3;
+
+    //Com variável
+    se (resto2 = 0 ^ resto3 = 0) entao
+        imprima("Número divisível por 2 e 3");
+    senao
+        imprima("Este número não é divisível por 2 e 3 simultaneamente");
+    fimse;
+
+    //Sem variável
+    se (numero % 2 = 0 ^ numero % 3 = 0) entao
+        imprima("Número divisível por 2 e 3");
+    senao
+        imprima("Este número não é divisível por 2 e 3 simultaneamente");
+    fimse;
+
+Fim.

@@ -1,0 +1,21 @@
+Programa EstruturaBasica;
+
+Var
+    caractere: nome;            //endereco: xyz
+    inteiro: idade;             //endereco: abc
+    real: altura;               //endereco: fgh
+    Logico: estaTrabalhando;    //endereco: lkj
+
+Inicio
+
+    //Aqui eu atribuo o valor "Diogo" para variável nome
+    nome ← "Diogo";
+    idade ← 30;
+    altura ← 1,75;
+    estaTrabalhando ← Verdadeiro;
+
+    imprima("Digite o nome e a idade da pessoa");
+    leia(nome,idade);
+    imprima("Nome: " + nome + " e Idade: " + idade);
+
+Fim.

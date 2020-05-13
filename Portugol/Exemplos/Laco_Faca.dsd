@@ -1,0 +1,42 @@
+Programa Laco_Faca;
+
+Var
+    inteiro: contador ← 0, soma, valor, media;
+Inicio
+
+//    faca
+//        comandos
+//        comandos
+//        comandos
+//    enquanto (condicao);
+
+    contador ← 1;
+    faca
+        imprima(contador);
+        contador ← contador + 1;
+    enquanto(contador <= 10);
+
+    contador ← 0;
+    soma ← 0;
+    faca
+        imprima("Digite o valor: ");
+        leia(valor);
+        soma ← soma + valor;
+        contador++;
+    enquanto(contador <= 4);
+    imprima("Soma: " + soma);
+
+    contador ← 0;
+    soma ← 0;
+
+    faca
+       imprima("Digite um valor: ");
+       leia(valor);
+       se (valor > 0) entao
+          soma ← soma + valor;
+          contador++;
+       fimse;
+    enquanto(valor > 0);
+    media ← valor / contador;
+    imprima("Média: " + media);
+Fim.

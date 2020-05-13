@@ -1,0 +1,37 @@
+Programa Condicional_Caso;
+
+Var
+    inteiro: codigo;
+Inicio
+
+    imprima("Digite o código do funcionário: ");
+    leia(codigo);
+
+    se (codigo = 1) entao
+        imprima("Técnico selecionado");
+    senao
+        se (codigo = 2) entao
+            imprima("Gerente selecionado");
+        senao
+            se (codigo = 3) entao
+                imprima("Demais funcionários");
+            senao
+                imprima("Código inválido!");
+            fimse;
+        fimse;
+    fimse;
+
+    escolha (codigo)
+        caso 1:
+            imprima("Técnico selecionado");  
+        caso 2.5:
+            imprima("Gerente selecionado");            
+        caso "3":
+            imprima("Demais funcionários");           
+        caso verdadeiro:
+            imprima("Demais funcionários");
+        outrocaso:
+            imprima("Código inválido!");
+    fimescolha;
+
+Fim.

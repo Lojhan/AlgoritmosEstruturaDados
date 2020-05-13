@@ -1,0 +1,34 @@
+Programa Exercicio09;
+
+Var
+    inteiro: contador, anterior, atual, proximo;
+
+Inicio
+
+    //Exercício 15
+    anterior ← 0;
+    atual ← 1;
+    imprima(anterior);
+    imprima(atual);
+    para contador de 1 ate 10 passo 1 faca
+        proximo ← anterior + atual;
+        anterior ← atual;
+        atual ← proximo;
+        imprima(proximo);
+    fimpara;
+
+    //Exercício 16
+    anterior ← 0;
+    atual ← 1;
+    imprima(anterior);
+    imprima(atual);
+    faca
+        proximo ← anterior + atual;
+        anterior ← atual;
+        atual ← proximo;
+        se (proximo < 7) entao
+            imprima(proximo);
+        fimse;
+    enquanto (proximo < 7);
+
+Fim.

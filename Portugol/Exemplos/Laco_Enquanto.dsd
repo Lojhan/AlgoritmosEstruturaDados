@@ -1,0 +1,37 @@
+Programa Laco_Enquanto;
+
+Var
+    inteiro: contador, valor, soma;
+Inicio
+
+//Um laço de repetição será executado enquanto a condição for verdadeira
+
+//Exemplo da sintaxe do laço de repetição - ENQUANTO
+//    enquanto (condicao) faca
+//        comandos
+//        comandos
+//        comandos
+//    fimenquanto;
+
+    contador ← 11;
+    enquanto (contador <= 10) faca
+        imprima("Contador: " + contador);
+        contador ← contador + 1;
+    fimenquanto;
+    
+    contador ← 0;
+    soma ← 0;
+    enquanto (contador < 5) faca       
+       imprima("Digite um valor: ");
+       leia(valor);
+       soma ← soma + valor;
+       //imprima("Soma: " + soma);
+
+       //contador ← contador + 1;
+       contador++;
+    fimenquanto;
+
+    imprima("Soma: " + soma);
+    
+
+Fim.

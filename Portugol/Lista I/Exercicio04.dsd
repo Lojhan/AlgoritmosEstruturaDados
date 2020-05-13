@@ -1,0 +1,17 @@
+Programa Exericio04;
+
+Var
+    real: salario, porcentagem_aumento, aumento, salario_final;
+
+Inicio
+
+    imprima("Digite o salário e a porcentam do acréscimo: ");
+    leia(salario, porcentagem_aumento);
+
+    //aumento ← ((porcentagem_aumento / 100) * salario);
+    salario_final ← ((porcentagem_aumento / 100) * salario) + salario;
+    //aumento ← salario_final - salario;
+
+    imprima(salario);
+
+Fim.

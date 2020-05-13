@@ -1,0 +1,17 @@
+Programa Exercicio07Lista02;
+
+Var
+    real: a, b, c, d, r, s;
+
+Inicio
+
+    imprima("Digite os valores para a, b e c: ");
+    leia(a, b, c);
+    
+    r ← (a + b) ^ 2;
+    s ← (b + c) * (b + c);
+    d ← (r + s) / 2;
+
+    imprima(d);
+
+Fim.

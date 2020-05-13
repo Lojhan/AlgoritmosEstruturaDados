@@ -1,0 +1,22 @@
+ Programa AlgoritmoIdade;
+
+Var
+     inteiro: idade;
+
+Inicio
+    imprima("Digite a idade: ");
+    leia(idade); //13
+    
+    se (idade < 12) entao
+        imprima("Criança");
+    senao
+        se (idade < 18) entao
+            imprima("Adolescente");
+        senao        
+            imprima("Adulto");
+        fimse;
+    fimse;
+
+Fim.
+
+

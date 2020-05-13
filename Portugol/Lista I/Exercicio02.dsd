@@ -1,0 +1,13 @@
+Programa Exercicio02;
+
+Var
+    real: n1, n2, n3, n4, n5, n6, media;
+
+Inicio
+
+    imprima("Digite os seis números: ");
+    leia(n1, n2, n3, n4, n5, n6);
+    media ← (n1 + n2 + n3 + n4 + n5 + n6) / 6;
+    imprima("A média é: " + media);
+
+Fim.

@@ -1,0 +1,9 @@
+Programa OlaMundo;
+
+Var
+
+Inicio
+
+    imprima("Olá Mundo!");
+
+Fim.

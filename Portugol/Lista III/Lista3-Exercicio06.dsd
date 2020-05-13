@@ -1,0 +1,18 @@
+Programa Exercicio07Lista02;
+
+Var
+    real: a, b, c, x1, x2, delta;
+
+Inicio
+
+    imprima("Digite os valores para a, b e c: ");
+    leia(a, b, c);
+    delta ← (b * b) - 4 * a * c;
+    x1 ← (-b + raiz(delta)) / 2 * a;
+    x2 ← (-b - raiz(delta)) / 2 * a;
+
+    imprima(x1, x2);
+
+    imprima(d);
+
+Fim.

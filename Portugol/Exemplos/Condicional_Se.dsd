@@ -1,0 +1,55 @@
+Programa condicional_se;
+
+Var
+    inteiro: n1, n2, n3, x1, x2, idade;
+Inicio
+    //Se o resultado da condição for verdadeiro, é executado o que está dentro do SE
+    se (10 > 5) entao
+        imprima("10 é maior do que 5");
+    fimse;
+
+    //Se o resultado da condição for falso, não é executado o que está dentro do SE
+    se (10 < 5) entao
+        imprima("10 é maior do que 5");
+    fimse;
+
+    leia(n1);
+    se (n1 > 10) entao
+        imprima("O número digitado é maior do que 10");
+    fimse;
+    
+    leia(n1, n2, n3);
+    se (n1 > n2) entao
+        imprima("O número digitado é maior do que 10");
+    fimse;
+
+    //se((n1 > n2) e/ou | ^/v (n2 > n3)) entao
+
+    leia(x1, x2);
+    se (x1 > x2) entao
+        imprima("X1 maior!");
+    fimse;
+    se (x2 > x1) entao
+        imprima("X2 maior!");
+    fimse;
+
+    se (x1 > x2) entao
+        imprima("X1 maior!"); //Condição verdadeira
+    senao
+        imprima("X2 maior!"); //Condição falsa
+    fimse;
+
+    //Ler a idade de uma pessoa
+    //Se a idade for menor do que 12 anos = criança
+    //Se a idade for maior do que 12 e menor do que 18 = adolescente
+    //Se a idade for maior do que 18 = adulto 
+
+    n - 1
+
+    leia(idade);
+
+    se ()
+
+
+
+Fim.

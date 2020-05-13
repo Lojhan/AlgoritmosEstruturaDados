@@ -1,0 +1,24 @@
+Programa Exercicio01;
+
+Var
+Inicio
+    inteiro: valor, cedula100 ← 0;
+
+    imprima("Digite o valor: ");
+    leia(valor); // valor ← 150;
+
+    se (valor >= 100) entao
+        valor ← valor - 100;
+        cedula100++; 
+        se (valor >= 100) entao
+            valor ← valor - 100;
+            cedula100++;  
+            se (valor >= 100) entao
+                valor ← valor - 100;
+                cedula100++;        
+            fimse;             
+        senao
+
+        fimse;      
+    fimse;
+Fim.

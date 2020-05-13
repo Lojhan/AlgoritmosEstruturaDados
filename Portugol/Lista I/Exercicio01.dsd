@@ -1,0 +1,15 @@
+Programa Exercicio01;
+
+Var
+    inteiro: n1, n2, n3, n4, n5, resultado;
+
+Inicio
+
+    imprima("Digite os cincos números: ");
+    leia(n1, n2, n3, n4, n5);
+    resultado ← n1 + n2 + n3 + n4 + n5; 
+    imprima("O resultado é: " + resultado);
+
+Fim.
+
+variavel1   variavel2   vara

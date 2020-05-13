@@ -1,0 +1,12 @@
+Programa Conversao_Real_Dolar;
+
+Var
+
+    inteiro: real, dolar;
+
+Inicio
+    imprima("Digite o valor em real: ");
+    leia(real);
+    dolar ← real / dolar;
+    imprima("Dólar: " + dolar) ;
+Fim.

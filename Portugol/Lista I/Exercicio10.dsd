@@ -1,0 +1,15 @@
+Programa Exercicio10;
+
+Var
+    real: altura, raio, volume
+
+Inicio
+
+    imprima("Digite a altura e o raio do cilindro: ");
+    leia(altura, raio);
+
+    volume ← 3,14 * (raio * raio) * altura;
+
+    imprima(volume);
+
+Fim.

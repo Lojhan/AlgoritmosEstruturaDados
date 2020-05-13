@@ -1,0 +1,25 @@
+Programa Exercicio21;
+
+Var
+    inteiro: numero, contador;
+    logico: primo;
+Inicio
+    imprima("Digite um número: ");
+    leia(numero);
+    primo ← verdadeiro;
+
+    para contador de 2 ate numero - 1 passo 1 faca
+        se (numero % contador = 0) entao
+            primo ← falso;
+            contador ← 100;
+        fimse;
+    fimpara;
+
+    se (primo = verdadeiro) entao
+        imprima("Número primo!");
+    senao
+        imprima("Não é um número primo!);
+    fimse;
+
+
+Fim.

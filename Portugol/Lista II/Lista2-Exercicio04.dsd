@@ -1,0 +1,16 @@
+Programa  Exercicio02Lista02;
+
+Var 
+    real: distancia, tempo, velocidade, litros;
+    
+Inicio
+
+    imprima("Digite o tempo e a velocidade: ");
+    leia(tempo, velocidade);
+
+    distancia = tempo * velocidade;
+    litros = distancia / 12;
+
+    imprima("Litros: " + litros);
+
+Fim.
