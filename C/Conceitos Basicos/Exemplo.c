@@ -52,4 +52,23 @@ int main()
         printf("\nDia %d: %d", i, inteiro);
         inteiro = inteiro * 2;
     }
+    
+    if(inteiro > 0){
+        //Positivo
+    }else{
+        if(inteiro < 0){
+            //Negativo
+        }else{
+            //Neutro
+        }
+    }
+
+    if(inteiro > 0){
+        //Positivo
+    }else if(inteiro < 0){
+        //Negativo
+    }else{
+        //Neutro
+    }
+
 }
