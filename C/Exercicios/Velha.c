@@ -140,3 +140,6 @@ int verificarFim(int jogadas, int jogador)
 // return 1; vitória do jogador 1
 // return 2; vitória do jogador 2
 // return 3; empate
+
+void jogarComputador(){
+}
